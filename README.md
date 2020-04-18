@@ -5,13 +5,14 @@ My work was inspired by this project
 https://github.com/jsyang/gearvr-controller-webbluetooth
 
 # How To use?
-1. Change the bluetooth MAC address in the .py file to yours!!!
+1. Change the bluetooth MAC address at the bottom of the .py file to your Gear VR controller's!!!
 2. Pair Controller with (Linux) PC
 3. Connect Controller
 4. As root load uinput: # modprobe uinput
 5. As root enable user access to uinput: # chmod 666 /dev/uinput
-6. Run my program
-7. Enjoy
+6. Run pip3 install python-uinput pygatt gatt more-itertools numpy cmath --user
+7. Run my program
+8. Enjoy
 
 To avoid steps 4 and 5:
 
